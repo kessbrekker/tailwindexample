@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.container {
+    width: 100%;
+    padding-inline: calc(var(--spacing) * 3.5);
+    @media (width >= 40rem) {
+        max-width: 1300px;
+    }
+    @media (width >= 48rem) {
+        max-width: 1300px;
+    }
+    @media (width >= 64rem) {
+        max-width: 1300px;
+    }
+    @media (width >= 80rem) {
+        max-width: 1300px;
+    }
+    @media (width >= 1300px) {
+        max-width: 1300px;
+    }
+}
+.fbefore::before{
+    content: '';
+    top: 0px;
+    position: absolute;
+    left: 48.75%;
+    bottom: 0;
+    background-color: #ffffff1a;
+    height: 90%;
+    width: 1px;
+}
